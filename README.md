@@ -1,1 +1,1 @@
-# my-mew-package
+# my-new-package
