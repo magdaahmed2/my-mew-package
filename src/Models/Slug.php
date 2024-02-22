@@ -1,6 +1,6 @@
 <?php
 
-namespace wdd\slug\Models;
+namespace magdawdd\slug\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
