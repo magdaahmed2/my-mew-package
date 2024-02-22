@@ -1,5 +1,5 @@
 <?php
-namespace wdd\slug\functions;
+namespace magdawdd\slug\functions;
 class slugGen{
     public function geneate(){
         
