@@ -1,5 +1,5 @@
 <?php
-namespace wdd\slug\Http\controllers;
+namespace magdawdd\slug\Http\controllers;
 use App\Http\controllers\Controller;
 use Illuminate\Support\Str;
 class SlugController extends Controller{
