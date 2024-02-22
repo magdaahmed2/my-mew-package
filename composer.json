@@ -11,5 +11,10 @@
         "psr-4": {
             "magdawdd\\slug\\": "src/"
         }
+},
+"extra": {
+    "laravel": {
+        "providers":"magdawdd\\slug\\SlugServiceProvider"
+    }
 }
 }
