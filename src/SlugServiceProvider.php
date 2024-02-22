@@ -8,7 +8,7 @@ class SlugServiceProvider extends ServiceProvider{
         $this->loadMigrationsFrom(__DIR__.'/../src/Database/Migrations');
         $this->loadViewsFrom(__DIR__.'/../src/views', namespace: 'wdd/slug'); // Set 'slug' as the namespace for your views
          $this->publishes([
-            __DIR__.'/../src/Database/Migrations' => $this->app->langPath('vendor/courier'),
+            __DIR__.'/../src/Database/Migrations' => database_path('migrations'),
         ]);
     }
     
