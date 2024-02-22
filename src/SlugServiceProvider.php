@@ -1,5 +1,5 @@
 <?php
-namespace wdd\slug;
+namespace magdawdd\slug;
 use Illuminate\Support\ServiceProvider;
 class SlugServiceProvider extends ServiceProvider{
     public function boot()
